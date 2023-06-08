@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gill Sans", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:#080808;
+    color:#fff;
+    overflow: auto;
+}
+ #header {
+    width: 100%;
+    height: 100vh;
+    background-color: #080808;
+    background-image: url(/Assets/unsplash1);
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    
+ }
+ /* about page header section */
+ #aboutheader{
+    width: 100%;
+    height: 100vh;
+    background-color: #080808;
+    background-image: url(/Assets/backabout.jpg);
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    
+ }
+ /* services page header css */
+ #serviceheader{
+    width: 100%;
+    height: 100vh;
+    background-color: #080808;
+    background-image: url(/Assets/backservices.jpg);
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+ }
+ 
+ #contactheader{
+    width: 100%;
+    height: 100vh;
+    background-color: #080808;
+   background-image: url(/Assets/post1.jpg);
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+ }
+ /* contact page section css */
+ 
+ /* post section css */
+
+.container{
+    padding: 10px 10%;
+}
+.textbox{
+    position: absolute;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50%;
+    padding-left: 20%;
+    padding-right: ;
+    text-align: center;
+}
+.textbox button{
+    color:red;
+    font-size: 18px;
+    border-: 2px-solid;
+    radius: 3px;
+    background-color:transparent;
+    
+}
+/* about page  title css*/
+
+.about{
+    
+        position: absolute;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20%;
+        padding-left: 33%;
+        padding-right: ;
+        text-align: center;
+    
+}
+/* home page title css */
+.home{
+    
+    position: absolute;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20%;
+    padding-left: 33%;
+    padding-right: ;
+    text-align: center;
+
+}
+/* services page title css */
+.service{
+    
+    position: absolute;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20%;
+    padding-left: 33%;
+    padding-right: ;
+    text-align: center;
+
+}
+/* contact page title css */
+.CON{
+    
+    position: absolute;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20%;
+    padding-left: 33%;
+    padding-right: ;
+    text-align: center;
+
+}
+
+nav {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav ul li {
+       display: inline-block;
+       list-style: none;
+       margin: 10px 20px;
+}
+nav ul li a {
+    font-size: 18px;
+    text-decoration:none;
+    color: #fff;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    
+}
+#post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+
+}
+.post-heading h1{
+    font-size: 2.4rem;
+    color: white;
+    font-weight: 600;
+}
+#post-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+
+}
+.post-box{
+   width: 350px;
+   border: 1px solid black;
+   margin: 20px;
+}
+.post-img{
+   width: 100%;
+   height: auto;
+    
+    justify-content: center;
+}
+.post-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+
+    
+}
+.post-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.post-text .text-title{
+    font-size: 1.3rem;
+    font-weight: ;
+}
+.post-text p{
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-lin-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: auto;
+    text-overflow: ellipsis ;
+    margin: 20px 0px;
+}
+.post-text a{
+    color: #c7bfaf;
+    text-decoration:none;
+}
+#post-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+
+}
+/* footer section css */
+
+.contain{
+    max-width: 1170px;
+    margin: auto;
+
+}
+#footer{
+    padding: 70px 0;
+}
+ul {
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width:25%;
+    padding: 0 15px;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color:#ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px; 
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child)
+{
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-link a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    line-height: 40px;
+    transition: all 0.5s ease;
+}
+.footer-col.social-link a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+/* contact page css */
+
+.contact{
+    padding: 40px 15%;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns:repeat(2, 2fr);
+    align-items:center;
+    grid-gap: 6rem;
+
+}
+.contact-img img{
+    max-width: 100%;
+    width: 720px;
+    height: auto;
+    border-radius: 10px;
+
+}
+.contact-form h1{
+    font-size: 80px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.contact-form p{
+    color:#c6c9d8bf;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1.1rem;
+    margin-bottom: 3.8rem;
+   }
+   .contact-form form{
+    position: relative;
+
+   }
+   .contact-form form input,form textarea{
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline:none;
+    background:#191919;
+    color:#fff;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+     border-radius: 10px;
+   }
+   .contact-form form .btn{
+    display: inline-block;
+    background: #f9004d;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 220px;
+    transition: ease .20s;
+    cursor: pointer;
+
+   }
+   .contact-form form .btn:hover{
+    border: 2px solid #f9004d;
+    background:transparent;
+    transform: scale(1.1);
+
+   }
+   @media (max-width 1570px){
+    .contact{
+        padding: 80px 3%;
+        transition: .2s;
+    }
+    .contact-form h1{
+        font-size: 60px;
+    }
+    .contact-form p {
+        margin-bottom: 3rem;
+    }
+   }
+   @media (max-width 1090px){
+    grid-gap: 2rem;
+    transition: 0.3s;
+   }
+   @media (max-width 1000px){
+    .contact{
+        grid-template-columns: 1fr;
+    }
+    .contact-form{
+        order: 2;
+    }
+
+   }
+
+
+/* footer responsive css */
+
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+}
+@media(max-width:547px){
+    
+    .footer-col{
+        width: 100%;
+        
+}
